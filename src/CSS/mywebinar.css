@@ -1,0 +1,70 @@
+
+.webinar-form-card{
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  margin: 55px auto;
+  background-color: #EFEFEF;
+}
+
+.webinar-form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.webhome #mainweb-button{
+ margin-left: 50px;
+ margin-top: 23px;
+
+}
+
+.card-webinarbody{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+border: none;
+ 
+}
+
+.webinar-card {
+
+  margin: 20px 50px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.webinar-card:hover {
+  transform: scale(1.05);
+  /* box-shadow: 0 0 10px #198754; */
+  cursor: pointer;
+}
+
+.webinar-card:hover .card-body {
+  color:white;
+  background-color:#30cf7d;
+}
+
+.webinar-card .card-body {
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+#mainweb-button{
+  background-color: #198754; /* set the background color to green */
+  color: #fff; /* set the text color to white */
+  border: none; /* remove the border */
+  padding: 10px 20px; /* set the padding */
+  font-size: 16px; /* set the font size */
+  border-radius: 4px; /* round the corners of the button */
+  cursor: pointer; /* set the cursor to a pointer on hover */
+  transition: background-color 0.3s ease; /* add a smooth transition to the background color */
+ 
+}
+
+#mainweb-button:hover {
+  background-color: #11613c; /* darken the background color on hover */
+}

@@ -1,0 +1,61 @@
+.register-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+
+.registration-card {
+ 
+  padding: 5px;
+  width: 100%;
+  max-width: 400px;
+  /* margin: auto; */
+  margin: auto;
+}
+
+.registration-form {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.register-div{
+  height: 100%;
+}
+/* .side-col{
+    height: 100%;
+    max-height: 1000px;
+background-color: red;
+} */
+.side-col{
+    border-right: 0.5px solid black;
+    
+    color: black;
+   
+}
+.main-col{
+   
+}
+
+.register-heading{
+    padding: 2px;
+    /* border-bottom: 2px solid black; */
+}
+
+.register-div{
+    
+    
+    padding:10px 0px 50px 0px ;
+}
+
+.register-button{
+  border: none;
+  outline: none;
+}
+
+.register-p{
+  /* margin-left: 20px; */
+  text-align: center;
+}

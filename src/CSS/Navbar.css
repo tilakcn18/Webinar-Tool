@@ -1,0 +1,10 @@
+
+
+#dropdown-item:hover{
+color: white;
+background-color: #198754;
+}
+
+#basic-nav-dropdown::after {
+  display: none;
+}

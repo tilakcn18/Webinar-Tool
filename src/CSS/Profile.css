@@ -1,0 +1,77 @@
+.card-profile{
+  width: 100%;
+  max-width: 380px;
+margin: 60px 0px 0px 100px;
+
+  
+}
+
+
+/* .profilepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 90px;
+    font-family: sans-serif;
+    
+  
+  }
+  
+  .navbar-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+   
+ 
+  }
+  
+  
+  
+  .main-card {
+
+    border-radius: 2px;
+    padding: 20px;
+   
+    width: 320px;
+  
+    height: 100%;
+    box-shadow: 0px 2px 6px #357960;
+    border: 2px solid  #31af95;
+ 
+   
+ background-color: white;
+    color:  #31af95;
+    
+  }
+  
+    
+    
+  
+
+  
+  
+  #cards {
+    margin-bottom: 20px;
+    
+  }
+
+  #cards img{
+   height: 50px;
+   width: 50px;
+  }
+  
+ 
+
+   .main-card h5{
+    background-color: #31af95;
+    padding: 9px;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: lighter;
+   
+
+   } */

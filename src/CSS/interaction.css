@@ -1,0 +1,147 @@
+.table {
+ 
+  border-radius: 5px;
+}
+
+.table td,
+.table th {
+ 
+  border-right: 1px solid #dddddd;
+}
+
+.table th {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.table td {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 150px;
+}
+
+.table th:last-child,
+.table td:last-child {
+  border-right: none;
+}
+
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.table {
+  margin: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: calc(100% - 40px);
+}
+
+.table td:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.table thead {
+  background-color: #198754;
+  color: #ffffff;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+.edit-button,
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.edit-button:hover span,
+.delete-button:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.edit-button span,
+.delete-button span {
+  font-size: 0.9rem;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(100%);
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.edit-button span {
+  color: #198754;
+}
+
+.delete-button span {
+  color: #dc3545;
+}
+
+.edit-button svg,
+.delete-button svg {
+  font-size: 1.2rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* .edit-button:hover svg,
+.delete-button:hover svg {
+  transform: scale(1.2);
+} */
+.edit-button svg {
+  color: #198754;
+}
+
+.delete-button svg {
+  color: #dc3545;
+}
+
+.interaction-form,
+.poll-form,
+.chat-form,
+.CTA-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+
+  height: 100%;
+
+  margin: 0px auto;
+}
+
+.poll-answer {
+  border: 1px solid grey;
+
+  inline-size: 150px;
+  overflow-wrap: break-word;
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+
+  border-radius: 2px;
+  border: none;
+
+  font-family: sans-serif;
+}

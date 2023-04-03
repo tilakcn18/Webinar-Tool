@@ -1,0 +1,105 @@
+.forgot-card {
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  margin: 55px auto;
+}
+
+.forgot-form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.login-form .input {
+  width: 100%;
+  max-width: 300px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+
+
+/* .forgot-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+#h2forgot {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+}
+
+.forgot-form {
+  border: 1px solid #ccc;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#forgot-label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+  max-width: 300px;
+  font-family: sans-serif;
+}
+
+#forgot-input {
+
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 6px #357960;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  padding: 0px 10px;
+}
+
+#forgot-button {
+  background-color:#31AF95;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+#forgot-button:hover {
+  background-color: #003e29;
+}
+
+#forgot-p{
+  font-family: sans-serif;
+} */

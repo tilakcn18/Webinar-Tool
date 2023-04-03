@@ -1,0 +1,113 @@
+/* Increase the tab size */
+
+/* Increase the gap between tabs */
+/* .nav-tabs {
+border-bottom: none;
+  width: 800px;
+} */
+
+/* Optional: Set a background color for the active tab */
+/* .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active{
+  background-color: #157347;
+  color: white;
+
+} */
+
+.nav-link {
+  /* margin-left: 120px; */
+  /* padding: 1rem 2rem; */
+  font-size: 20px;
+ 
+ 
+}
+/* 
+.nav-item {
+  text-align: center;
+  width: 100%;
+  max-width: 164.5px;
+}
+.nav-link:hover{
+  color: black;
+}
+ */
+
+
+/* .Navmainweb {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 5px;
+    
+    background-color: #31af95;
+    color: white;
+   
+    font-family: sans-serif;
+   
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+   
+  
+  }
+  
+  .Navmainweb ul {
+    list-style: none;
+    
+    display: flex;
+  }
+  
+  .Navmainweb li {
+    margin: 0px 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+   
+  }
+  
+  .Navmainweb li:hover {
+   
+    border-radius: 5px;
+  }
+  
+  .Navmainweb li a {
+    
+    text-decoration: none;
+    color: white;
+  }
+  
+  .Navmainweb li a:hover {
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .Navmainweb {
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      padding: 10px;
+      background-color: #f0f0f0;
+      box-shadow: 0px 2px 6px #357960;
+      
+    }
+    .Navmainweb ul {
+      flex-direction: column;
+     margin: 0;
+     padding: 0; 
+    }
+    .Navmainweb li {
+      margin: 0;
+      padding: 15px;
+      text-align: center;
+      border-top: 1px solid #ccc;
+    }
+    .Navmainweb li:first-child {
+      border-top: none;
+    }
+  }
+   */

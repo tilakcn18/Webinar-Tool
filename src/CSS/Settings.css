@@ -1,0 +1,40 @@
+.Settings-card{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin-left: 20px;
+    /* margin: auto; */
+    /* margin: 20px 0px 0px 20px; */
+}
+.Settings-card1{
+    display: flex;
+    flex-direction: column;
+    
+    padding:5px;
+    width: 100%;
+    max-width: 320px;
+    margin-left: 20px;
+    /* margin: auto; */
+    /* margin: 20px 0px 0px 20px; */
+}
+
+#settings-button{
+    border: none;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    background-color: white;
+}
+/* .settings-list {
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: horizontal;
+    overflow: hidden;
+  } */
+
+  .settings{
+    display: flex;
+    align-items: center;
+  }
